@@ -18,4 +18,4 @@ Setup of this is detailed a sub-directory
 * [A library and framework for reversible logic synthesis](https://github.com/msoeken/cirkit)
 
 ## About
-Created by Michael Kirkedal Thomsen with help by [Miëtek Bak](https://mietek.io/).
+Concact [Michael Kirkedal Thomsen](http://diku.dk/ansatte/beskrivelse/?id=196082); packed by [Miëtek Bak](https://mietek.io/).
