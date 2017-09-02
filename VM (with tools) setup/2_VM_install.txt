@@ -1,0 +1,34 @@
+Dear all,
+
+first I would like to point everyone to the following link. This will send you to a google folder where we will publish material from/to the training school
+  http://bit.ly/revcompTR
+
+
+The virtual machine is now available and can be found at
+  http://topps.diku.dk/pirc/rev-vm.ova
+
+The file is 2.8 GB large. You import is from the "File" menu in VirtualBox.
+
+The VM has the following credentials:
+Username: landauer
+Password: bennett
+
+The VM contains no desktop environment and main interactions should therefore be command line based. I will recommend to that you make a headless start and do all interaction through ssh. We have setup port forwarding in VirtualBox such that port 1338 is established for ssh to the VM. You can use the attached shell script, extract the command or use PuTTY (or another ssh client) to connect to localhost on this port.
+
+For one of the courses we also need to use a GUI, which will run using X11 forwarding. For this you need to set an extra flag (e.g. in PuTTY) or use the attached x11_login shell script.
+
+When using the VM to make software, there are three ways to interact.
+
+1. You and edit files directly. The VM contains a few editors (vim, emacs, nano), but you are welcome to install more. 
+
+2. You can edit files on your machine and transfer the files to the VM. This transfer can be done with either scp og sftp. For scp you an use the command og a client (e.g. WinSCP https://winscp.net/). For sftp i can recommend FileZilla (https://filezilla-project.org/). In both cases you connect using the same host and port as for ssh. Credentials are also the same.
+
+3. You can mount the home-drive of the VM on your machine using sshfs and work directly on it with your own editors. For this you need to install sshfs; OS X users need OS X FUSE (https://osxfuse.github.io/). You connect similar to ssh and can use the attached mount shell script. You unmount the directory again using the "umount" command.
+I do not know a good setup for this on Windows, but it might exist.
+
+If you have any questions or comments to some of the above to not hesitate to contact me. 
+
+We will be helpful with setup Monday morning; please, write in advance so I know the problem and number of people with issues.
+
+Best regards,
+Michael

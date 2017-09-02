@@ -1,0 +1,34 @@
+Dear trainees,
+
+the upcoming COST training school in Torún is fast approaching.
+
+At the school you will in some of the courses be introduced to special tools and be asked to work with these. As most of you likely have experienced, installing academic tools can be a bit tedious and complicated, and might not even work on your OS. So to ease this process we will instead provide you with a virtual machine image with everything pre-build. Before coming to the training school, we would therefore need you to install the following software.
+
+All (Windows, OS X, Linux):
+The VM will be made for VirtualBox, which can be found here
+https://www.virtualbox.org/wiki/Downloads
+
+Additionally to easily interact with the VM we suggest installing the following on Windows and OS X.
+
+Windows:
+You need PuTTY (or another ssh client) to interact with the VM
+http://www.putty.org/
+
+You need Xming to run graphical applications over X11-forwaring
+https://sourceforge.net/projects/xming/
+
+OS X:
+You need XQuartz to run graphical applications over X11-forwaring
+https://www.xquartz.org/
+
+
+We will release the VM image as soon as it is ready, which also will include details on how to interact with it. The specific tools will be introduced later during the school.
+
+If you have further questions I will be happy to answer them to the extend possible. Also we will be available to help with installation problems Monday morning.
+
+Looking forward to see you soon.
+
+Best regards,
+Michael Kirkedal Thomsen
+
+on behalf of the organisation team
